@@ -6,27 +6,66 @@
 
 header {
   width: 100%;
-  height: 50px;
   background-color: #ff9a4b;
+  height: 50px;
 }
 
 main {
+  width: 960px;
   margin: 50px auto;
+  display: flex;
 }
 
-.box-s{
-
-  display:flex;
-  justify-content:center ;
+.item-box {
+  width: 300px;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  position:relative;
 }
 
-.box{
-  width:300px;
-  background-color:#eeeeee;
-  margin-right:30px;
+.item-box:last-child {
+  margin-right: 0;
 }
 
-.image{
-  height:150px;
-  padding:10px 10px;
+.img1 {
+  background-image: url(img/flow01.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 15px 10px;
+}
+
+.img2 {
+  background-image: url(img/flow02.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 15px 10px;
+}
+
+.img3 {
+  background-image: url(img/flow03.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 15px 10px;
+
+}
+
+.step-num{
+  position:absolute;
+  top:0;
+  left:0;
+  background-color:#ff9a4b;
+  color:white;
+}
+
+.title{
+  margin-bottom:5px;
+}
+
+footer{
+  background-color:#aaaaaa;
+  height:50px;
+  width:100%;
 }
