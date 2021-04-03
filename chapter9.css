@@ -20,7 +20,7 @@ main {
   width: 300px;
   background-color: #eeeeee;
   margin-right: 30px;
-  position:relative;
+  position: relative;
 }
 
 .item-box:last-child {
@@ -49,23 +49,57 @@ main {
   background-size: cover;
   background-position: bottom;
   margin: 10px 10px 15px 10px;
-
 }
 
-.step-num{
-  position:absolute;
-  top:0;
-  left:0;
-  background-color:#ff9a4b;
-  color:white;
+.step-num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: white;
 }
 
-.title{
-  margin-bottom:5px;
+.title {
+  margin-bottom: 5px;
 }
 
-footer{
-  background-color:#aaaaaa;
-  height:50px;
-  width:100%;
+footer {
+  background-color: #aaaaaa;
+  height: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+}
+
+main {
+  width: 100%;
+  display: block;
+}
+
+.item-box {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.item-box:last-child {
+  margin-bottom: 0;
+}
+
+.img1 {
+  width: 90%;
+  height: 150px;
+}
+
+.img2 {
+  width: 90%;
+  height: 150px;
+}
+
+.img3 {
+  width: 90%;
+  height: 150px;
 }
