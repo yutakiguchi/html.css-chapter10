@@ -70,14 +70,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  header {
+  main {
     width: 100%;
+    display:block;
   }
-}
-
-main {
-  width: 100%;
-  display: block;
 }
 
 .item-box {
